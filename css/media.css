@@ -1,0 +1,441 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  /*=================
+   Header start
+==================*/
+.c_navbar{
+	padding: 5px 0;
+	text-align: center;
+}
+.c_navbar a {
+    font-size: 16px;
+    margin-left: 10px;
+}
+.c_bar {
+    font-size: 20px;
+    bottom: 12px !important;
+}
+.c-menu ul li{
+	padding: 0;
+}
+.c-menu ul li a{
+	padding: 0;
+}
+.b-center {
+    margin-top: -10px;
+}
+.b-center h1 {
+    font-size: 18px;
+}
+.b-center p {
+    font-size: 14px !important;
+    padding: 5px 0 15px 0;
+    margin: 0;
+}
+.b-buttons a {
+    font-size: 12px;
+    padding: 5px 15px;
+}
+/*=================
+   feature start
+==================*/
+#feature {
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+}
+.s-feat {
+    margin: 10px 0;
+    padding: 35px !important;
+}
+.f-icon a i,
+.sr-icn i
+ {
+    font-size: 2em !important;
+}
+.f-cont h2 {
+    margin: 15px 0;
+   
+}
+.f-cont p {
+    
+    word-spacing: 1px;
+    line-height: 1.4;
+}
+/*=================
+  offer section start
+==================*/
+#offer {
+    padding: 40px 0;
+}
+.cm-title {
+    margin-bottom: 15px;
+}
+.cm-title h1{
+  font-size: 20px;
+}
+.pr-bar{
+    padding: 0 25px;
+}
+.s-prg {
+    text-align: center;
+    margin: 25px 0;
+}
+.sr-cont{
+    text-align: center;
+}
+.sr-cont h2{
+    margin: 20px 0;
+} 
+.cus_progress{
+    width: 100%;
+   
+}
+
+.r-offer{
+        margin: 8px 0;
+}
+.sr-offer {
+    margin: 20px 0;
+    transition: .3s 
+}
+.sr-offer:hover {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.4);
+    transform: translateY(-20px);
+    }
+/*=======================
+  portfolio section Start
+=========================*/
+#portfolio{
+    padding: 50px 0;
+}
+.h_port{ 
+    font-size: 14px;
+}
+.port{
+    margin-top: 20px;
+}
+
+.s_port h1{
+    font-size: 20px !important;
+}
+.s_port p{
+    font-size: 12px;
+}
+/*=======================
+  Pricing section Start
+=========================*/
+#price, #client, #contact{
+    height: auto;
+    padding: 40px 0; 
+}
+
+.c_2{
+     transform: none; 
+     box-shadow: none; 
+}
+
+
+.c_body li{
+    line-height: 1.4;
+   
+}
+/*=======================
+  clients section Start
+=========================*/
+.box{
+    margin: 10px 0;
+}
+/*=======================
+  contact section Start
+=========================*/
+.form_btn button{
+  font-size: 0.75rem;
+  border-radius: 80px;
+  margin: 0 4px;
+  padding: 8px 25px;
+}
+::placeholder {
+  font-size: 0.75rem;
+}
+/*=======================
+  Newsletter section Start
+=========================*/
+#news{
+  margin: 60px auto;
+}
+#news .cm-title h1{
+  line-height: 1.6;
+}
+
+.news_int{
+  border-radius: 80px 0 0 80px !important;
+  min-width: 100px;
+  min-height: 30px;
+}
+.sub_int{
+  border-radius: 0 80px 80px 0 !important;
+  min-width: 80px;
+  min-height: 30px;
+  font-size: 0.75rem;
+}
+/*=======================
+  footer section Start
+=========================*/
+#ft{
+  padding: 50px 0;
+}
+.ft_1 {
+  margin-bottom: 30px;
+}
+.ft_1 h3{
+  margin-bottom: 8px;
+  font-size: 1.1rem !important;
+}
+#myBtn{
+  bottom: 10px;
+  right: 15px;
+  padding: 5px;
+  border-radius: 5px; 
+  
+}
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*=================
+   Header start
+==================*/
+.c_navbar{
+	padding: 10px 0;
+}
+.c-menu ul li{
+	padding: 0;
+}
+.c-menu ul li a{
+	padding: 0;
+}
+.b-center h1 {
+    font-size: 32px;
+}
+.b-center p {
+    font-size: 16px !important;
+    padding: 10px 0 25px 0;
+    margin: 0;
+}
+.b-buttons a {
+    font-size: 14px;
+    padding: 7px 28px;
+}
+/*=================
+   feature start
+==================*/
+#feature {
+    width: 100%;
+    margin: 50px 0;
+    text-align: center;
+}
+.s-feat {
+    margin: 10px 0;
+    padding: 40px !important;
+}
+.f-icon a i {
+    font-size: 2.5em !important;
+}
+.f-cont h2 {
+    margin: 15px 0;
+   
+}
+.f-cont p {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.6;
+}
+/*=================
+  offer section start
+==================*/
+#offer {
+    padding: 60px 0;
+}
+.r-offer{
+        margin: 15px 0;
+}
+.sr-offer{
+    padding: 10px 0;
+}
+/*=======================
+  portfolio section Start
+=========================*/
+#portfolio{
+    padding: 60px 0;
+}
+.h_port{ 
+    font-size: 16px;
+}
+.port{
+    
+    margin-top: 30px;
+}
+
+.s_port h1{
+    font-size: 24px !important;
+}
+.s_port p{
+    font-size: 12px;
+}
+/*=======================
+  Pricing section Start
+=========================*/
+#price, #client,#contact{
+    height: auto;
+    padding: 60px 0; 
+}
+.s_item{
+    margin-top: 10px;
+}
+.cus_card {
+    
+    margin-bottom: 30px;
+}
+.c_2{
+     transform: none; 
+     box-shadow: none; 
+}
+/*=======================
+  clients section Start
+=========================*/
+.box{
+    margin: 10px 0;
+}
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  /*=================
+   Header start
+==================*/
+.c-menu ul li {
+    padding: 0 5px;
+}
+/*=================
+   feature start
+==================*/
+#feature {
+    width: 100%;
+    margin: 55px 0;
+    text-align: center;
+}
+.s-feat {
+    padding: 12px !important;
+}
+.f-icon a i {
+    font-size: 2.5em !important;
+}
+.f-cont h2 {
+    margin: 16px 0;
+}
+.f-cont p {
+    /*font-size: 16px;*/
+}
+/*=================
+  offer section start
+==================*/
+.r-offer{
+        margin: 30px 0;
+}
+.sr-offer{
+    padding: 10px 0;
+}
+
+/*=======================
+  portfolio section Start
+=========================*/
+#portfolio{
+    padding: 70px 0;
+}
+.port{  
+    margin-top: 40px;
+}
+
+.s_port h1{
+    font-size: 28px !important;
+   
+}
+/*=======================
+  Pricing section Start
+=========================*/
+#price, #client, #contact{
+    height: auto;
+    padding: 60px 0; 
+}
+.s_item{
+    margin-top: 20px;
+}
+.c_2{
+     transform: none; 
+     box-shadow: none; 
+}
+.c_head {
+    font-size: 16px !important;
+    padding: 20px 0 !important;
+   
+}
+.c_body{
+    padding: 20px 0px !important;
+}
+.c_body li{
+    margin: 8px 0 !important;
+    line-height: 1.4;
+   
+}
+.pr_value{
+    font-size: 30px;
+}
+
+.c_foot{
+    padding: 20px 0;
+}
+.c_foot a{
+    border-radius: 50px;
+    padding: 8px 20px;
+}
+
+
+}
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*=================
+   feature start
+==================*/
+#feature {
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+}
+.s-feat {
+    padding: 15px !important;
+}
+.f-cont h2 {
+    margin: 16px 0;
+}
+/*=================
+  offer section start
+==================*/
+.sr-offer{
+    padding: 8px 0;
+}
+/*=======================
+  contact section Start
+=========================*/
+#price, #client, #contact{
+    height: auto;
+    padding: 80px 0;
+}
+
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  
+}
